@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GiftCardTermsConditionsActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_20"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/padding_20"
+            android:paddingVertical="@dimen/header_height">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="The following terms and conditions apply to the gift cards purchased or obtained on SHEIN."
+                android:textColor="@color/black_400"
+                android:textSize="@dimen/header_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Last updated on June 1, 2022."
+                android:textColor="@color/gray_400" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_height" />
+
+            <!-- 1. Redemption & Limitations -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="1. Redemption &amp; Limitations"
+                android:textColor="@color/black_400"
+                android:textSize="@dimen/header_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_before_8"
+                android:fontFamily="@font/poppins"
+                android:lineHeight="@dimen/line_height_20"
+                android:text="@string/redemption_limitations_gift_card_TC"
+                android:textSize="@dimen/body" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_height" />
+
+            <!-- 2. Purchase -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="2. Purchase"
+                android:textColor="@color/black_400"
+                android:textSize="@dimen/header_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_before_8"
+                android:fontFamily="@font/poppins"
+                android:lineHeight="@dimen/line_height_20"
+                android:text="@string/purchase_gift_card_TC"
+                android:textSize="@dimen/body" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_height" />
+
+            <!-- 3. Gift Card Redemption -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="3. Gift Card Redemption"
+                android:textColor="@color/black_400"
+                android:textSize="@dimen/header_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_before_8"
+                android:fontFamily="@font/poppins"
+                android:lineHeight="@dimen/line_height_20"
+                android:text="@string/gift_card_redemption_TC"
+                android:textSize="@dimen/body" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_height" />
+
+            <!-- 4. View Balance -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="4. View Balance"
+                android:textColor="@color/black_400"
+                android:textSize="@dimen/header_1" />
+
+            <TextView
+                android:id="@+id/txtGiftCardViewBalance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_before_8"
+                android:fontFamily="@font/poppins"
+                android:lineHeight="@dimen/line_height_20"
+                android:text="@string/gift_card_view_balance_TC"
+                android:textSize="@dimen/body" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_height" />
+
+            <!-- 5. Validity Period & Return -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="5. Validity Period &amp; Return"
+                android:textColor="@color/black_400"
+                android:textSize="@dimen/header_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_before_8"
+                android:fontFamily="@font/poppins"
+                android:lineHeight="@dimen/line_height_20"
+                android:text="@string/gift_card_validity_period_return_TC"
+                android:textSize="@dimen/body" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_height" />
+
+            <!-- 6. Reason for Gift Cards Not Received -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="6. Reason for Gift Cards Not Received"
+                android:textColor="@color/black_400"
+                android:textSize="@dimen/header_1" />
+
+            <TextView
+                android:id="@+id/txtGiftCardNotReceived"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_before_8"
+                android:fontFamily="@font/poppins"
+                android:lineHeight="@dimen/line_height_20"
+                android:text="@string/gift_card_not_received_TC"
+                android:textSize="@dimen/body" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_height" />
+
+            <!-- 7. Gift Card Lost or Stolen -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="7. Gift Card Lost or Stolen"
+                android:textColor="@color/black_400"
+                android:textSize="@dimen/header_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_before_8"
+                android:fontFamily="@font/poppins"
+                android:lineHeight="@dimen/line_height_20"
+                android:text="@string/gift_card_lost_stolen_TC"
+                android:textSize="@dimen/body" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_height" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Header -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/padding_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btnReturnPurchaseGiftCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_chevron_left_fill" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/black_400"
+            android:textSize="@dimen/header_1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_shopping_outlined" />
+    </LinearLayout>
+
+    <!-- Header Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_400"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

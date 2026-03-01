@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlashSaleActivity">
+
+    <!-- Header -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/flash_sale_header_background"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Page Title Layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_height"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/padding_20">
+
+            <ImageButton
+                android:id="@+id/btnReturnHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_chevron_left_fill" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="46dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:gravity="center"
+                android:text="Flash Sale"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/header_1" />
+
+            <ToggleButton
+                android:textOn=""
+                android:textOff=""
+                android:checked="false"
+                android:id="@+id/btnLayoutManager"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/toggle_layout_manager" />
+
+            <ImageButton
+                android:id="@+id/btnOpenFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_filter_fill" />
+        </LinearLayout>
+
+        <!-- Tab Layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_height"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <!-- On Sale Now -->
+            <FrameLayout
+                android:id="@+id/onSaleLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/sale_end_time"
+                            android:textColor="@color/black_400"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/lblOnSaleDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:text="06.05"
+                            android:textColor="@color/black_400"
+                            android:textSize="@dimen/body" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="On Sale Now"
+                        android:textSize="@dimen/body" />
+
+                </LinearLayout>
+                <!-- Indicator -->
+                <View
+                    android:id="@+id/tabIndicator1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="4dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/black_400" />
+            </FrameLayout>
+
+            <!-- Coming Later Sale -->
+            <FrameLayout
+                android:id="@+id/comingLaterLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/sale_end_time"
+                            android:textColor="@color/black_400"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/lblComingLaterDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:text="06.05"
+                            android:textColor="@color/black_400"
+                            android:textSize="@dimen/body" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Coming Later"
+                        android:textSize="@dimen/body" />
+
+                </LinearLayout>
+                <!-- Indicator -->
+                <View
+                    android:id="@+id/tabIndicator2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="4dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/black_400"
+                    android:visibility="invisible" />
+            </FrameLayout>
+
+            <!-- Coming Soon Sale -->
+            <FrameLayout
+                android:id="@+id/comingSoonLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/sale_end_time"
+                            android:textColor="@color/black_400"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/lblComingSoonDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:text="06.05"
+                            android:textColor="@color/black_400"
+                            android:textSize="@dimen/body" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Coming Soon"
+                        android:textSize="@dimen/body" />
+
+                </LinearLayout>
+                <!-- Indicator -->
+                <View
+                    android:id="@+id/tabIndicator3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="4dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/black_400"
+                    android:visibility="invisible" />
+            </FrameLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmentViewPageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header" />
+
+    <FrameLayout
+        android:id="@+id/filterFragmentFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

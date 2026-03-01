@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/off_white"
+    tools:context=".BagActivity">
+
+    <!-- Header -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Message Button -->
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_margin="@dimen/margin_20"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_mail_outlined" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Shopping Bag"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_location_pin_outlined"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/poppins"
+                android:text="Sri Lanka "
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <!-- Favorites Button -->
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_margin="@dimen/margin_20"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_favorite_outlined" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/gray_400" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_20"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/img_empty_cart" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:gravity="center"
+            android:text="Your cart is empty"
+            android:textColor="@color/black_400"
+            android:textSize="@dimen/header_1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Shopping" />
+    </LinearLayout>
+
+    <!-- Bottom Navigation -->
+    <LinearLayout
+        android:id="@+id/NavigationGrid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_nav_background"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- Home Button -->
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_home_outlined" />
+
+        <!-- Category Button -->
+        <ImageButton
+            android:id="@+id/btnCategory"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_category_outlined" />
+
+        <!-- Shopping Bag Button -->
+        <ImageButton
+            android:id="@+id/btnShoppingBag"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="150dp"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_shopping_bag_fill" />
+
+        <!-- Account Button-->
+        <ImageButton
+            android:id="@+id/btnAccount"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_person_outlined" />
+
+    </LinearLayout>
+
+    <!-- New Product Button Overlay -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- New Products Button -->
+        <ImageButton
+            android:id="@+id/btnNewProducts"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="10dp"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_new_products" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

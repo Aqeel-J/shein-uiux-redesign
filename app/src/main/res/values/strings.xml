@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">SHEIN</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="dummy_text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\n
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\n
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\n
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\n
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\n
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
+</string>
+    <string name="shipping_info">* In most cases, the package will be delivered within the
+        estimated time of arrival. However, the actual delivery date may be affected by flight arrangements,
+        weather conditions and other external factors. Please refer to the tracking information for
+        the most accurate delivery date. \n\n
+
+        * For Philippines: The expected arrival time may vary depending on the delivery address and
+        what time you make your purchase. If you found that: 1) your package has not been delivered
+        within the specified time; 2) the tracking information shows that the package has been
+        delivered but you have not received it; or 3) your package includes missing/incorrect items,
+        please contact customer service within 45 days of the payment date that the aforementioned
+        issues can be addressed. For other orders, products, and logistics-related issues, make sure
+        to contact customer service within 90 days of the order date. \n\n
+
+        * Please click the "Confirm Delivery" button within 6 months (from the date of shipment).
+        After that, the button will turn gray and cannot be used to get additional points.\n
+    </string>
+    <string name="shipping_info_red">
+        We\'re improving our delivery process to make your packages even safer, so there may be a 2-4 day
+        delay in processing your orders.
+    </string>
+
+    <string name="gift_card_info">Give the gift that never goes out of style!\n\nNo matter who you\'re celebrating, SHEINE E-Gift Cards are a super quick and easy way for you and your
+        favorite SHEIN babes to shop. Plus, you\'ll save on each E-Gift Card purchase!\n\nClick <a href="">here</a> for more information on E-Gift Cards.</string>
+
+    <string name="registration_privacy_policy">By registering, you agree to our &#160; <a href=""> Privacy &amp; Cookie Policy</a> &#160;and <a href="">Terms &amp; Conditions.</a></string>
+    <string name="sign_in_privacy_policy">By signing in to your account, you agree to our &#160; <a href="">Privacy &amp; Cookie Policy</a> and <a href="">Terms &amp; Conditions.</a></string>
+    <string name="gift_card_term_conditions">By placing this order, I agree that I have read and understood the <button href="">Terms and Conditions. </button></string>
+
+    <!-- Gift Card Terms & Conditions -->
+    <string name="redemption_limitations_gift_card_TC">Gift cards may be redeemed on SHEIN to purchase products and services. <b>Gift cards purchased after March 8, 2021 can no longer be redeemed outside of the country it was purchased from. For example, if you purchased a gift card on SHEIN’s US site, it can only be redeemed on SHEIN US site’s PC page, mobile page, Android system, or iOS system.</b></string>
+    <string name="purchase_gift_card_TC">When you place an order to purchase gift cards, we need to ensure your payment method is safe and secure. The verification process is estimated to take 1-7 business days. The actual time frame depends on the payment method you select.</string>
+    <string name="gift_card_redemption_TC">You may enter the gift card number and PIN number when you are checking out. The amount will be deducted from the gift card. If the payable balance is more than the balance remaining on the gift card, you must select other payment methods to pay for the remaining amount.\n\nPlease note that only one gift card can be redeemed in connection with any given order and they cannot otherwise be \"stacked\" or combined with other gift cards for that same order.</string>
+    <string name="gift_card_view_balance_TC">You may check your gift card balance in your account.\n\nThe balance in your gift card may be used on SHEIN to purchase products and services. The gift card balance cannot be withdrawn for cash.</string>
+    <string name="gift_card_validity_period_return_TC">Any gift card you purchase from us has no expiry date.\n\nTo the extent permitted by applicable laws, gift card purchases are non-refundable.\n\nPlease note any gift card issued by us to you free of charge may have an expiry period, generally ranging from 1 day to 3 months (or potentially longer) from the date of issuance.\n\nOnce the validity period expires, the gift card cannot be redeemed.
+If an order is paid by a gift card and a refund was requested, the portion paid by the gift card will be returned to the gift card.</string>
+    <string name="gift_card_not_received_TC">After the gift card has been purchased successfully, it will be sent to the email address on file (or such alternative methods that SHEIN may identify). If you did not receive your gift card number and PIN number, it may be because:\n
+You entered the wrong email address when purchasing the gift card. Please contact Customer Support to confirm and change the email address.\n
+Your inbox is full. Please ensure you have sufficient space in your inbox, then contact Customer Support to resend.\n
+Our emails have been blocked by your mailbox. Please add SHEIN.com to your whitelist, then contact Customer Support to resend.</string>
+    <string name="gift_card_lost_stolen_TC"><b>For the avoidance of doubt, SHEIN will not be responsible if a lost or stolen gift card is subsequently used without your authorization. As such, please ensure that you are taking proper means to secure your gift card number and PIN from unauthorized access and use.</b></string>
+    <string name="sale_end_time">7.30</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
